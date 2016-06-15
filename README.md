@@ -3,23 +3,19 @@
 [![Build Status](https://travis-ci.org/ak10m/rake-env.svg?branch=master)](https://travis-ci.org/ak10m/rake-env)
 [![Code Climate](https://codeclimate.com/github/ak10m/rake-env/badges/gpa.svg)](https://codeclimate.com/github/ak10m/rake-env)
 
-wle will be able to share the variables between Rake task.
+rake-env will be able to share the variables between Rake task.
 
 ## Installation
 
 Add this line to your application's Gemfile:
 
 ```ruby
-gem 'rake-env'
+gem 'rake-env', github: 'ak10m/rake-env', branch: 'master'
 ```
 
 And then execute:
 
     $ bundle
-
-Or install it yourself as:
-
-    $ gem install rake-env
 
 ## Usage
 
